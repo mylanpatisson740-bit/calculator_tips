@@ -1,24 +1,39 @@
-Tip Time - Solution Code
-=================================
+# Calculator Tips 💵
 
-Starter code for the [Android Basics with Compose](https://developer.android.com/courses/android-basics-compose/course): Tip Time app.
+Application Android développée en **Kotlin** avec **Jetpack Compose**, qui calcule le montant du pourboire à ajouter à une addition.
 
+## Fonctionnalités
 
-Introduction
-------------
-The Tip Time app contains various UI elements for calculating a tip,
-teaching about user input, and State in Compose.
+- Saisie du montant de l'addition
+- Saisie du pourcentage de pourboire souhaité
+- Option pour arrondir le pourboire au dollar supérieur (`Switch`)
+- Calcul automatique et affichage du pourboire formaté en devise locale (ex : `$10.00`)
 
+## Technologies utilisées
 
-Pre-requisites
---------------
-* Experience with Kotlin syntax.
-* How to create and run a project in Android Studio.
+- **Kotlin**
+- **Jetpack Compose** (`TextField`, `Switch`, `Row`, `Column`)
+- **Material 3**
+- `NumberFormat.getCurrencyInstance()` pour le formatage monétaire
 
+## Prérequis
 
-Getting Started
----------------
-1. Install Android Studio, if you don't already have it.
-2. Download the sample.
-3. Import the sample into Android Studio.
-4. Build and run the sample.
+- Android Studio
+- SDK Android : min **24**, target/compile **35**
+
+## Installation
+
+1. Cloner le dépôt :
+   ```bash
+   git clone https://github.com/mylanpatisson740-bit/calculator_tips.git
+   ```
+2. Ouvrir le projet dans Android Studio
+3. Lancer l'application sur un émulateur ou un appareil physique
+
+## Contexte
+
+Projet réalisé à partir du codelab **Android Basics with Compose** (Tip Time), complété et personnalisé pour pratiquer la gestion d'état et les champs de saisie en Compose.
+
+## Auteur
+
+Mylan Patisson — [GitHub](https://github.com/mylanpatisson740-bit)
